@@ -1,5 +1,47 @@
-.cabecalho{
+.cabecalho {
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
-    align-content: center
+    align-items: center;
+    }
+
+    .cabecalho-menu-hamburger {
+        width: 24px;
+        height: 24px;
+        background-image: url("../img/Menu.svg"); 
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+    }
+
+    .container-imagem{
+
+    }
+    
+    .container {
+    display: flex;
+    align-items: center;
+    }
+    
+    .cabecalho-titulo {
+    display: none;
+    }
+    .container-menu{
+   display: none;
+   position: absolute;
+   top: 100%
+    }
+
+    .container-botao;:checked~.lista-menu {
+        display: block;
+    }
+    
+    @media screen and (min-width: 1024px) {
+    .cabecalho-titulo {
+    display: flex;
+    }
+    
+    .cabecalho-imagem-transparente {
+    display: none;
+    }
+    }
